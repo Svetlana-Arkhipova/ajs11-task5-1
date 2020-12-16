@@ -1,6 +1,6 @@
 import Character from './character';
 
-class Bowman extends Character {
+class Undead extends Character {
     constructor(name) {
         super(name);
         this.attack = 25;
