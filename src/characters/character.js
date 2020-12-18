@@ -18,16 +18,4 @@ export default class Character {
     }
     this._name = name;
   }
-
-  // get type() {
-  //   return this._type;
-  // }
-
-  // set type(type) {
-  //   const types = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
-  //   if (!types.includes(type)) {
-  //     throw new Error('Несуществующий персонаж');
-  //   }
-  //   this._type = type;
-  // }
 }
